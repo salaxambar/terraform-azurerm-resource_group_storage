@@ -18,7 +18,7 @@ module "resource_group_storage" {
 output "storage_account_primary_endpoint" {
   value = module.resource_group_storage.storage_account_primary_endpoint
 }
-
+```
 ## Inputs
 
 | Name                              | Description                                                        |
